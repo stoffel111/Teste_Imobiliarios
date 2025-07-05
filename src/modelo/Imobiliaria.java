@@ -2,7 +2,7 @@ package modelo;
 
 import java.util.LinkedList;
 
-public class Imobiliaria<TImovelImobiliaria extends ImovelImobiliaria> extends ComValor implements RepositorioLinkedList<TImovelImobiliaria> {
+public abstract class Imobiliaria<TImovelImobiliaria extends ImovelImobiliaria> extends ComValor implements RepositorioLinkedList<TImovelImobiliaria> {
     protected long numero;
     private final GestorLinkedList gestorLinkedList;
 

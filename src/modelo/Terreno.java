@@ -8,6 +8,6 @@ public class Terreno extends ImovelImobiliaria {
 
     @Override
     public String toString() {
-        return "Terreno: " + super.toString();
+        return " no terreno: " + super.toString();
     }
 }

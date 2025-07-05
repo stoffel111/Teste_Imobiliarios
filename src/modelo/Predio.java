@@ -28,8 +28,10 @@ public class Predio extends ImovelImobiliaria implements RepositorioLinkedList<A
         return gestorLinkedList.getImoveis();
     }
 
+
     @Override
     public String toString() {
-        return "Prédio: " + super.toString() + " no terreno: " + terreno.getIdentificacao();
+        return "Predio: "+ identificacao+" com valor: "+ valor +"€"+ terreno;
     }
+
 }

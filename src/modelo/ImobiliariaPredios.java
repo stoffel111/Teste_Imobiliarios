@@ -10,9 +10,6 @@ public class ImobiliariaPredios extends Imobiliaria<Predio> {
 
     @Override
     public String toString() {
-        return "ImobiliariaPredios{" +
-                "valor=" + valor +
-                ", numero=" + numero +
-                '}';
+        return "Imobiliaria de terrenos: "+numero+" com valor: "+ valor +"€";
     }
 }

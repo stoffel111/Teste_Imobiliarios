@@ -14,9 +14,6 @@ public abstract class Imovel extends ComValor {
 
     @Override
     public String toString() {
-        return "Imovel{" +
-                "identificacao='" + identificacao + '\'' +
-                ", valor=" + valor +
-                '}';
+        return identificacao;
     }
 }
